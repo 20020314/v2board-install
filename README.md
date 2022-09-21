@@ -11,7 +11,7 @@
 ### 配置环境及安装(确保v2board容器运行中)
 - 进入容器`docker exec v2board bash`  
 - 执行配置命令（顺序执行）
-- 
+
 `wget https://getcomposer.org/download/1.9.0/composer.phar`
  
 `php composer.phar global require hirak/prestissimo`
