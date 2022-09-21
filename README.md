@@ -12,7 +12,9 @@
 - 进入容器`docker exec v2board bash`  
 - 执行配置命令（顺序执行）
 `wget https://getcomposer.org/download/1.9.0/composer.phar`
+ 
 `php composer.phar global require hirak/prestissimo`
+ 
 `php -d memory_limit=-1 composer.phar install`
 - 启动安装 （执行后请按提示输入数据库和账号信息）
 `php artisan v2board:install`
