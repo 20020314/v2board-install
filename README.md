@@ -22,7 +22,7 @@
 `php artisan v2board:install`
 ### 启动程序队列服务
 - 首次启动请于启动后重启容器，后续将会自启动。
-`php artisan horizon &
+`php artisan horizon &`
 #### 升级
 - 进入容器 `docker exec v2board bash`
 - 执行内置升级脚本 `sh update.sh`
