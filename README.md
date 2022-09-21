@@ -18,6 +18,7 @@
  
 `php -d memory_limit=-1 composer.phar install`
 - 启动安装 （执行后请按提示输入数据库和账号信息）
+
 `php artisan v2board:install`
 ### 启动程序队列服务
 - 首次启动请于启动后重启容器，后续将会自启动。
